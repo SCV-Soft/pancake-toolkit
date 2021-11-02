@@ -4748,7 +4748,7 @@ var socials = [
     {
         label: "Github",
         icon: "Github",
-        href: "https://github.com/pancakeswap/",
+        href: "https://github.com/SCV-Soft",
     },
 ];
 __spreadArray([], Array(20)).map(function (_, i) { return ({
