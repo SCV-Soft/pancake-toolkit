@@ -685,12 +685,47 @@ var Icon$1p = function (props) {
 };
 
 var Icon$1o = function (props) {
+    var stopColor = {
+        stopColor0: {
+            stopColor: "#F8C25E"
+        },
+        stopColor1: {
+            stopColor: "#E34554"
+        }
+    };
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React__default['default'].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M5.84199 5.00181C5.35647 2.40193 7.35138 0 9.9962 0C12.3302 0 14.2222 1.89206 14.2222 4.22603V9.43607C14.806 9.39487 15.3992 9.37374 16 9.37374C16.5772 9.37374 17.1474 9.39324 17.709 9.43131V4.22603C17.709 1.89206 19.601 0 21.935 0C24.5798 0 26.5747 2.40193 26.0892 5.00181L24.9456 11.1259C28.8705 12.8395 31.8384 15.8157 31.8384 19.5556V21.8182C31.8384 24.8936 29.8038 27.4686 26.9594 29.2068C24.0928 30.9586 20.2149 32 16 32C11.7851 32 7.90719 30.9586 5.04062 29.2068C2.19624 27.4686 0.161621 24.8936 0.161621 21.8182V19.5556C0.161621 15.8355 3.09899 12.8708 6.99084 11.1538L5.84199 5.00181ZM23.48 11.9305L24.8183 4.76446C25.1552 2.96 23.7707 1.29293 21.935 1.29293C20.3151 1.29293 19.0019 2.60612 19.0019 4.22603V10.8562C18.5774 10.8018 18.1462 10.7586 17.709 10.7274C17.1484 10.6873 16.5782 10.6667 16 10.6667C15.3982 10.6667 14.8049 10.689 14.2222 10.7324C13.785 10.765 13.3537 10.8094 12.9293 10.8651V4.22603C12.9293 2.60612 11.6161 1.29293 9.9962 1.29293C8.16055 1.29293 6.77597 2.96 7.11295 4.76446L8.45562 11.9543C4.25822 13.5135 1.45455 16.3344 1.45455 19.5556V21.8182C1.45455 26.7274 7.96677 30.7071 16 30.7071C24.0332 30.7071 30.5455 26.7274 30.5455 21.8182V19.5556C30.5455 16.318 27.7131 13.4847 23.48 11.9305Z", fill: "#633001" }),
-        React__default['default'].createElement("path", { d: "M30.5455 21.8183C30.5455 26.7275 24.0333 30.7072 16 30.7072C7.96681 30.7072 1.45459 26.7275 1.45459 21.8183V19.5557H30.5455V21.8183Z", fill: "#FEDC90" }),
-        React__default['default'].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M7.11298 4.7645C6.77601 2.96004 8.16058 1.29297 9.99624 1.29297C11.6161 1.29297 12.9293 2.60616 12.9293 4.22607V10.8652C13.9192 10.7351 14.9466 10.6667 16 10.6667C17.0291 10.6667 18.0333 10.732 19.0019 10.8562V4.22607C19.0019 2.60616 20.3151 1.29297 21.935 1.29297C23.7707 1.29297 25.1553 2.96004 24.8183 4.7645L23.4801 11.9306C27.7131 13.4847 30.5455 16.318 30.5455 19.5556C30.5455 24.4648 24.0333 28.4445 16 28.4445C7.96681 28.4445 1.45459 24.4648 1.45459 19.5556C1.45459 16.3345 4.25826 13.5135 8.45566 11.9543L7.11298 4.7645Z", fill: "#D1884F" }),
-        React__default['default'].createElement("path", { className: "left-eye", d: "M11.9595 18.9091C11.9595 20.248 11.2359 21.3333 10.3433 21.3333C9.45075 21.3333 8.72717 20.248 8.72717 18.9091C8.72717 17.5702 9.45075 16.4849 10.3433 16.4849C11.2359 16.4849 11.9595 17.5702 11.9595 18.9091Z", fill: "#633001" }),
-        React__default['default'].createElement("path", { className: "right-eye", d: "M23.1111 18.9091C23.1111 20.248 22.3875 21.3333 21.4949 21.3333C20.6024 21.3333 19.8788 20.248 19.8788 18.9091C19.8788 17.5702 20.6024 16.4849 21.4949 16.4849C22.3875 16.4849 23.1111 17.5702 23.1111 18.9091Z", fill: "#633001" })));
+        React__default['default'].createElement("g", null,
+            React__default['default'].createElement("linearGradient", { id: "SVGID_1_", gradientUnits: "userSpaceOnUse", x1: "-0.988", y1: "35.02", x2: "73.6472", y2: "35.02", gradientTransform: "matrix(1 0 0 1 0 2)" },
+                React__default['default'].createElement("stop", { offset: "0", style: stopColor.stopColor0 }),
+                React__default['default'].createElement("stop", { offset: "1", style: stopColor.stopColor1 })),
+            React__default['default'].createElement("path", { className: "st0", fill: "url(#SVGID_1_)", d: "M66.9,72.7c-2.8,0-9.3-5.3-3.9-14.1c4.9-7.9,2.6-13.8,2.2-14.8c0,0-0.1-0.1-0.1-0.2c0,0,0,0,0,0l0,0\n      c-1.5-3.1-2.1-6.1-2.4-7.7c-0.1-0.8-0.2-1.2-0.2-1.2c0,0,0,0,0,0c0,0,0,0,0,0s-0.2,0.3-0.3,0.9c-1,3-0.5,5.8,0,7.3\n      c0,0.1,1.3,4.1-2.6,6.6c-1.3,0.7-3,0.9-4.7,0.5c-3.5-1-4.3-4.9-4.3-4.9c-0.3-2.2,0.6-4.2,2.2-5.5l0,0c0.1,0,0.1-0.1,0.2-0.2\n      c6-4.7,4.4-15.7,4.4-15.7s0,0,0,0.2l0-0.2C54.1,34.3,45.6,37,45.6,37c1.5-8.7-4.6-15-4.6-15c-0.9-1.2-2.1-2.3-3.5-3.2\n      c-9.6-6.1-3-17.5-3-17.5s-17.4,11.3-8,22.6l0,0c1.2,1.2,2,2.9,2,4.7c0,3.8-3.2,6.8-7.1,6.8c-3.9,0-7.1-3-7.1-6.8\n      c0-1.8,0.7-3.4,1.9-4.7c0.4-0.3,0.8-0.7,1.2-1c0,0-11.9,5.8-5.6,20.4c4.3,10.1-2.4,20.1-7,25.4c-1.1,1.2-2.8,3-4.2,3.9h5.3l0,0\n      c7.9,0,16.9,0,21,0h2.3h4.8v0H40v0h21.2v0C61.2,72.7,66.9,72.7,66.9,72.7z" }),
+            React__default['default'].createElement("linearGradient", { id: "SVGID_2_", gradientUnits: "userSpaceOnUse", x1: "-0.988", y1: "7.395", x2: "73.6472", y2: "7.395", gradientTransform: "matrix(1 0 0 1 0 2)" },
+                React__default['default'].createElement("stop", { offset: "0", style: stopColor.stopColor0 }),
+                React__default['default'].createElement("stop", { offset: "1", style: stopColor.stopColor1 })),
+            React__default['default'].createElement("path", { className: "st1", fill: "url(#SVGID_2_)", d: "M40.9,15.9c-3.2-6.6,2.9-13.1,2.9-13.1C33,8.5,40.9,15.9,40.9,15.9z" }),
+            React__default['default'].createElement("linearGradient", { id: "SVGID_3_", gradientUnits: "userSpaceOnUse", x1: "-0.988", y1: "45.64", x2: "73.6472", y2: "45.64", gradientTransform: "matrix(1 0 0 1 0 2)" },
+                React__default['default'].createElement("stop", { offset: "0", style: stopColor.stopColor0 }),
+                React__default['default'].createElement("stop", { offset: "1", style: stopColor.stopColor1 })),
+            React__default['default'].createElement("path", { className: "st2", fill: "url(#SVGID_3_)", d: "M1.2,37.7c0,0,5.5,7.9,6.9,19.9C8.1,57.6,12.4,45.7,1.2,37.7z" }),
+            React__default['default'].createElement("linearGradient", { id: "SVGID_4_", gradientUnits: "userSpaceOnUse", x1: "-0.988", y1: "17.85", x2: "73.6472", y2: "17.85", gradientTransform: "matrix(1 0 0 1 0 2)" },
+                React__default['default'].createElement("stop", { offset: "0", style: stopColor.stopColor0 }),
+                React__default['default'].createElement("stop", { offset: "1", style: stopColor.stopColor1 })),
+            React__default['default'].createElement("path", { className: "st3", fill: "url(#SVGID_4_)", d: "M48.8,27.9c0.3-0.3,3-2.7,2.6-4.8c0,0,1.5,2.7-2.8,7c0,0,7.8-3.9,3.7-10.7c0,0-1.9-2.7-3.7-3.7\n      c-1.8-0.9-2.6-3.4-2.2-6.3c0,0-2.5,4.8,1,10.9C50.6,26,49,27.7,48.8,27.9z" })),
+        React__default['default'].createElement("path", { className: "st4", fill: "#FFFFFF", d: "M33.9,34.6" }),
+        React__default['default'].createElement("path", { className: "st4", fill: "#FFFFFF", d: "M33.9,34.6" }),
+        React__default['default'].createElement("polygon", { className: "st4", fill: "#FFFFFF", points: "9.1,72.7 9.1,72.7 60,72.7 54.7,63.5 " }),
+        React__default['default'].createElement("polygon", { className: "st4", fill: "#FFFFFF", points: "18.8,55.9 11.8,68 52.5,59.7 47,50.2 " }),
+        React__default['default'].createElement("g", null,
+            React__default['default'].createElement("polygon", { className: "st4", fill: "#FFFFFF", points: "38.9,36.2 34.6,28.6 29.1,38 \t" }),
+            React__default['default'].createElement("polygon", { className: "st4", fill: "#FFFFFF", points: "26.6,42.4 21.5,51.2 44.9,46.5 40.8,39.4 \t" })),
+        React__default['default'].createElement("polygon", { className: "st5", opacity: "0.4", enableBackground: "new", points: "11.8,68 18.2,70.9 54.7,63.5 47.7,60.7 " }),
+        React__default['default'].createElement("polygon", { className: "st5", opacity: "0.4", enableBackground: "new", points: "47,50.2 42.1,47.1 21.5,51.2 26.2,54.4 " }),
+        React__default['default'].createElement("polygon", { className: "st5", opacity: "0.4", enableBackground: "new", points: "40.8,39.4 37.7,36.4 29.1,38 31.9,41.3 " }),
+        React__default['default'].createElement("g", { className: "st6", opacity: "0.5" },
+            React__default['default'].createElement("polygon", { className: "st5", opacity: "0.4", enableBackground: "new", points: "49.4,64.6 41.9,66.1 43.2,72.7 52.8,72.7 \t" }),
+            React__default['default'].createElement("polygon", { className: "st5", opacity: "0.4", enableBackground: "new", points: "43.7,50.9 39,51.8 41,62.1 47.7,60.7 \t" }),
+            React__default['default'].createElement("polygon", { className: "st5", opacity: "0.4", enableBackground: "new", points: "34.6,28.6 36.1,36.7 37.7,36.4 \t" }),
+            React__default['default'].createElement("polygon", { className: "st5", opacity: "0.4", enableBackground: "new", points: "39.8,47.6 42.1,47.1 39,39.8 36.8,40.3 38.3,47.9 \t" }))));
 };
 
 var Logo$2 = function (_a) {
@@ -2640,7 +2675,7 @@ var additionalColors = {
 };
 var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#f8fcde", backgroundDisabled: "#e8eae8", backgroundAlt: "#FFFFFF", backgroundAlt2: "rgba(255, 255, 255, 0.7)", cardBorder: "#eae9e3", contrast: "#261813", dropdown: "#e8e7e1", dropdownDeep: "#ededed", invertedContrast: "#FFFFFF", input: "#f4f0eb", inputSecondary: "#e2edcb", tertiary: "#f1f4ef", text: "#5e240d", textDisabled: "#bcc4bd", textSubtle: "#aa6f8d", disabled: "#eaeae8", gradients: {
         bubblegum: "linear-gradient(139.73deg, #fff7e5 0%, #f0ffef 100%)",
-        inverseBubblegum: "linear-gradient(139.73deg, #feffef 0%, #e5ffe7 100%)",
+        inverseBubblegum: "linear-gradient(139.73deg, #f0ffef 0%, #fff7e5 100%)",
         cardHeader: "linear-gradient(111.68deg, #eff2ed 0%, #ebe6f4 100%)",
         blue: "linear-gradient(180deg, #a7f2c0 0%, #bcf293 100%)",
         violet: "linear-gradient(180deg, #c7cdf9 0%, #b8c9f9 100%)",
@@ -2649,7 +2684,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#ffd26b", background: "#090a05", backgroundDisabled: "#423d37", backgroundAlt: "#2b2725", backgroundAlt2: "rgba(39, 38, 44, 0.7)", cardBorder: "#343f31", contrast: "#FFFFFF", dropdown: "#1e211e", dropdownDeep: "#16100b", invertedContrast: "#262413", input: "#31472f", inputSecondary: "#213028", primaryDark: "#a03800", tertiary: "#473541", text: "#fcffed", textDisabled: "#6c7060", textSubtle: "#bdd1ab", disabled: "#54634b", gradients: {
         bubblegum: "linear-gradient(139.73deg, #305b39 0%, #2a5436 100%)",
-        inverseBubblegum: "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",
+        inverseBubblegum: "linear-gradient(139.73deg, #2a5436 0%, #305b39 100%)",
         cardHeader: "linear-gradient(166.77deg, #2a3c54 0%, #30443e 100%)",
         blue: "linear-gradient(180deg, #007f3d 0%, #198c7e 100%)",
         violet: "linear-gradient(180deg, #996549 0%, #b24c58 100%)",
