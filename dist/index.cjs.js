@@ -693,7 +693,7 @@ var Icon$1o = function (props) {
             stopColor: "#E34554"
         }
     };
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 72 72" }, props),
         React__default['default'].createElement("g", null,
             React__default['default'].createElement("linearGradient", { id: "SVGID_1_", gradientUnits: "userSpaceOnUse", x1: "-0.988", y1: "35.02", x2: "73.6472", y2: "35.02", gradientTransform: "matrix(1 0 0 1 0 2)" },
                 React__default['default'].createElement("stop", { offset: "0", style: stopColor.stopColor0 }),
