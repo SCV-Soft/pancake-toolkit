@@ -705,7 +705,7 @@ var Logo$2 = function (_a) {
             stopColor: "#E34554"
         }
     };
-    return (React__default.createElement(Svg, __assign({ viewBox: "0 0 160 26" }, props),
+    return (React__default.createElement(Svg, __assign({ viewBox: "0 0 260 100" }, props),
         React__default.createElement("g", null,
             React__default.createElement("linearGradient", { id: "SVGID_1_", gradientUnits: "userSpaceOnUse", x1: "-0.988", y1: "35.02", x2: "73.6472", y2: "35.02", gradientTransform: "matrix(1 0 0 1 0 2)" },
                 React__default.createElement("stop", { offset: "0", style: stopColor.stopColor0 }),
