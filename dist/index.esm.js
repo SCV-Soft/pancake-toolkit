@@ -659,10 +659,16 @@ var Icon$1o = function (props) {
 var Logo$2 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     var textColor = isDark ? "#FFFFFF" : "#000000";
-    return (React__default.createElement(Svg, __assign({ viewBox: "0 0 1366 768" }, props),
-        React__default.createElement("g", { transform: "translate(0.000000,392.000000) scale(0.100000,-0.100000)" },
-            React__default.createElement("path", { fill: "#D92538", d: "M1412.06,1422.02c3-118,9-388,12-600l6-385l-282-345l-282-345l7-410c4-225,10-413,14-416\n          c23-22,999-703,1011-705c8-2,240,155,515,349l500,353l3,416l2,416l-342,377l-343,377l-3-636c-1-350-4-636-7-636c-2,0-91,57-197,127\n          c-106,69-194,127-195,128c-1,0,60,261,136,580l139,580l-331,470c-182,258-340,481-350,495\n          C1406.06,1637.02,1405.06,1636.02,1412.06,1422.02z" }),
-            React__default.createElement("text", { transform: "matrix(10 0 0 -10 3216.7993 -874.7101)", "font-family": "FranklinGothic-Demi", "font-size": "200px", fill: textColor }, "CAMPFIRE"))));
+    return (React__default.createElement(Svg, __assign({ viewBox: "0 0 407.03 117.3" }, props),
+        React__default.createElement("path", { fill: "#d92538", d: "M18.8,6.92c.1,4.06.31,13.36.41,20.66l.21,13.25L9.71,52.71,0,64.59.24,78.7C.38,86.45.59,92.92.72,93c.79.76,34.4,24.21,34.81,24.28s8.26-5.34,17.73-12L70.48,93.13l.1-14.32.07-14.33-11.78-13-11.81-13L47,60.42c0,12-.14,21.9-.24,21.9s-3.13-2-6.78-4.38-6.68-4.37-6.72-4.4,2.07-9,4.69-20l4.78-20L31.3,17.42C25,8.54,19.59.86,19.25.38,18.59-.48,18.56-.45,18.8,6.92Z" }),
+        React__default.createElement("path", { fill: textColor, d: "M122.56,57.18l-11.27.7q-.23-9.71-7.58-9.71-8.42,0-8.42,15,0,8.64,2.29,11.72a7.52,7.52,0,0,0,6.4,3.07q6.67,0,8.15-8.67l10.43.64q-1,8.24-6.14,12.52a18.91,18.91,0,0,1-12.56,4.29,19.07,19.07,0,0,1-14.81-6.29q-5.7-6.28-5.7-17.38,0-10.39,5.52-17t15.06-6.63Q120.48,39.39,122.56,57.18Z" }),
+        React__default.createElement("path", { fill: textColor, d: "M150.82,40.1,165.19,86H153.63l-2.82-9.45H136L133.09,86h-9.42L138.38,40.1Zm-12.27,28h9.72L143.45,52Z" }),
+        React__default.createElement("path", { fill: textColor, d: "M190.46,86,179.14,48.57V86h-9V40.1h16.74l8.06,27.47L203.4,40.1h16.79V86H209.37V48.57L197.82,86Z" }),
+        React__default.createElement("path", { fill: textColor, d: "M240.27,68.94V86H229.34V40.1h18.09a25.89,25.89,0,0,1,9.26,1.29A13.73,13.73,0,0,1,262.42,46a13.12,13.12,0,0,1,2.52,8.17,17.17,17.17,0,0,1-1.34,6.62,12,12,0,0,1-3.8,5.08A13.87,13.87,0,0,1,255,68.34a31.25,31.25,0,0,1-7.21.6Zm-.37-8.33h7q4,0,5.61-1.85a6.25,6.25,0,0,0,1.62-4.24,5.73,5.73,0,0,0-1.8-4.44q-1.8-1.63-5.46-1.64h-7Z" }),
+        React__default.createElement("path", { fill: textColor, d: "M303.54,49.18H282.06V59.46h17V68h-17V86H270.89V40.1h32.65Z" }),
+        React__default.createElement("path", { fill: textColor, d: "M319.78,40.1V86H309.06V40.1Z" }),
+        React__default.createElement("path", { fill: textColor, d: "M339.82,67.8V86H329V40.1h20.18a25.68,25.68,0,0,1,9,1.29,11.49,11.49,0,0,1,5.59,4.76,13.93,13.93,0,0,1,2.22,7.69q0,8.27-8,11.86L366.45,86H354.57L347.52,67.8Zm0-19.53V60h6.59a17,17,0,0,0,4.69-.46,5.16,5.16,0,0,0,2.6-2,5.89,5.89,0,0,0,1.15-3.58,5.5,5.5,0,0,0-1.15-3.43,4.74,4.74,0,0,0-2.48-1.87,24,24,0,0,0-5.05-.35Z" }),
+        React__default.createElement("path", { fill: textColor, d: "M407,48.84H385.17v9.41h17.18v8.64H385.17v10H407V86H374.25V40.1H407Z" })));
 };
 var LogoWithTextIcon = React__default.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
 
