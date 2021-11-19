@@ -1,13 +1,13 @@
 import { Colors } from "./types";
 
 export const baseColors = {
-  failure: "#4b4eed",
-  primary: "#c7d31f",
-  primaryBright: "#e8537b",
-  primaryDark: "#0da000",
-  secondary: "#d89145",
-  success: "#324cd1",
-  warning: "#ff3838",
+  failure: "#D92538",
+  primary: "#314151",
+  primaryBright: "#5F6976",
+  primaryDark: "#252C36",
+  secondary: "#828A96",
+  success: "#47D7E2",
+  warning: "#D92538",
 };
 
 export const additionalColors = {
@@ -16,7 +16,7 @@ export const additionalColors = {
   gold: "#FFC700",
   silver: "#B2B2B2",
   bronze: "#E7974D",
-};
+};1
 
 export const lightColors: Colors = {
   ...baseColors,
