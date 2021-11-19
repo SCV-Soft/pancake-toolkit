@@ -16,7 +16,7 @@ export const additionalColors = {
   gold: "#FFC700",
   silver: "#B2B2B2",
   bronze: "#E7974D",
-};1
+};
 
 export const lightColors: Colors = {
   ...baseColors,
