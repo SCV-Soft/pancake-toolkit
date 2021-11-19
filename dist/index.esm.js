@@ -659,7 +659,7 @@ var Icon$1o = function (props) {
 var Logo$2 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     var textColor = isDark ? "#FFFFFF" : "#000000";
-    return (React__default.createElement(Svg, __assign({ viewBox: "0 0 260 100" }, props),
+    return (React__default.createElement(Svg, __assign({ viewBox: "0 0 1366 768" }, props),
         React__default.createElement("g", { transform: "translate(0.000000,392.000000) scale(0.100000,-0.100000)" },
             React__default.createElement("path", { fill: "#D92538", d: "M1412.06,1422.02c3-118,9-388,12-600l6-385l-282-345l-282-345l7-410c4-225,10-413,14-416\n          c23-22,999-703,1011-705c8-2,240,155,515,349l500,353l3,416l2,416l-342,377l-343,377l-3-636c-1-350-4-636-7-636c-2,0-91,57-197,127\n          c-106,69-194,127-195,128c-1,0,60,261,136,580l139,580l-331,470c-182,258-340,481-350,495\n          C1406.06,1637.02,1405.06,1636.02,1412.06,1422.02z" }),
             React__default.createElement("text", { transform: "matrix(10 0 0 -10 3216.7993 -874.7101)", "font-family": "FranklinGothic-Demi", "font-size": "200px", fill: textColor }, "CAMPFIRE"))));
