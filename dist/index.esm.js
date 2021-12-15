@@ -4629,28 +4629,19 @@ var BottomNav = function (_a) {
 
 var socials = [
     {
-        label: "Twitter",
-        icon: "Twitter",
-        href: "https://scvsoft.net",
+        label: "Facebook",
+        icon: "Facebook",
+        href: "https://www.facebook.com/CAMP-GLOBAL-107839080680846",
     },
     {
         label: "Telegram",
         icon: "Telegram",
-        items: [
-            {
-                label: "English",
-                href: "https://scvsoft.net",
-            },
-            {
-                label: "한국어",
-                href: "https://scvsoft.net",
-            },
-        ],
+        href: "https://t.me/CAMPKOR",
     },
     {
         label: "Github",
         icon: "Github",
-        href: "https://github.com/SCV-Soft",
+        href: "https://github.com/campfire-DeFi",
     },
 ];
 __spreadArray([], Array(20)).map(function (_, i) { return ({
