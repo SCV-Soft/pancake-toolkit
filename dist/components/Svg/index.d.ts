@@ -14,7 +14,7 @@ export { default as BinanceIcon } from "./Icons/Binance";
 export { default as BinanceChainIcon } from "./Icons/BinanceChain";
 export { default as BlockIcon } from "./Icons/Block";
 export { default as BnbUsdtPairTokenIcon } from "./Icons/BnbUsdtPairToken";
-export { default as BscScanIcon } from "./Icons/BscScan";
+export { default as BscScanIcon } from "./Icons/EtherScan";
 export { default as BunnyCardsIcon } from "./Icons/BunnyCards";
 export { default as BunnyPlaceholderIcon } from "./Icons/BunnyPlaceholder";
 export { default as CameraIcon } from "./Icons/Camera";

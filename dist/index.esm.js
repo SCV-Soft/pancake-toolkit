@@ -4812,7 +4812,7 @@ var links = [
                 href: "/",
             },
             {
-                label: "Syrup pools",
+                label: "FIRE pools",
                 href: "/",
             },
         ],
@@ -5167,7 +5167,7 @@ var ConnectorNames;
 (function (ConnectorNames) {
     ConnectorNames["Injected"] = "injected";
     ConnectorNames["WalletConnect"] = "walletconnect";
-    ConnectorNames["BSC"] = "bsc";
+    ConnectorNames["ETH"] = "bsc";
 })(ConnectorNames || (ConnectorNames = {}));
 
 var connectors = [
@@ -5204,7 +5204,7 @@ var connectors = [
     {
         title: "Binance Chain",
         icon: Icon$1_,
-        connectorId: ConnectorNames.BSC,
+        connectorId: ConnectorNames.ETH,
         priority: 999,
     },
     {
@@ -5294,7 +5294,7 @@ var ConnectModal = function (_a) {
                     !showMore && React__default.createElement(MoreWalletCard, { t: t, onClick: function () { return setShowMore(true); } }))),
             React__default.createElement(Box, { p: "24px" },
                 React__default.createElement(Text, { textAlign: "center", color: "textSubtle", as: "p", mb: "16px" }, t("Haven’t got a crypto wallet yet?")),
-                React__default.createElement(Button, __assign({ as: "a", href: "https://docs.pancakeswap.finance/get-started/connection-guide", variant: "subtle", width: "100%" }, getExternalLinkProps()), t("Learn How to Connect"))))));
+                React__default.createElement(Button, __assign({ as: "a", href: "https://docs.campfire.camp/get-started/connection-guide", variant: "subtle", width: "100%" }, getExternalLinkProps()), t("Learn How to Connect"))))));
 };
 var templateObject_1$2;
 
@@ -5349,7 +5349,7 @@ var AccountModal = function (_a) {
     return (React__default.createElement(Modal, { title: t("Your wallet"), onDismiss: onDismiss },
         React__default.createElement(Text, { fontSize: "20px", bold: true, style: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" } }, account),
         React__default.createElement(Flex, { mb: "32px" },
-            React__default.createElement(LinkExternal, { small: true, href: "https://bscscan.com/address/" + account, mr: "16px" }, t("View on BscScan")),
+            React__default.createElement(LinkExternal, { small: true, href: "https://etherscan.io/address/" + account, mr: "16px" }, t("View on EtherScan")),
             React__default.createElement(CopyToClipboard, { toCopy: account }, t("Copy Address"))),
         React__default.createElement(Flex, { justifyContent: "center" },
             React__default.createElement(Button, { scale: "sm", variant: "secondary", onClick: function () {
