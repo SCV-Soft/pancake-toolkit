@@ -1974,7 +1974,7 @@ var PriceLink = styled.a(templateObject_1$S || (templateObject_1$S = __makeTempl
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
     return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "/swap?inputCurrency=0xE9E73E1aE76D17A16cC53E3e87a9a7dA78834d37&outputCurrency=0xA548a7efE00371ded670cBdD9CAdcb383506C718", target: "_blank" },
-        React__default.createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default.createElement(Skeleton, { width: 80, height: 24 }));
+        React__default.createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(6)))) : (React__default.createElement(Skeleton, { width: 80, height: 24 }));
 };
 var CakePrice$1 = React__default.memo(CakePrice);
 var templateObject_1$S;
