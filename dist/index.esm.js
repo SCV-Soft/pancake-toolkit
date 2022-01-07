@@ -4741,7 +4741,7 @@ var MenuItem = function (_a) {
                 React__default.createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default.createElement(Box, { mr: "20px" },
                         React__default.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: darkColors.textSubtle })),
-                    React__default.createElement(Button, { as: "a", href: "/swap?inputCurrency=0xE9E73E1aE76D17A16cC53E3e87a9a7dA78834d37&outputCurrency=0xA548a7efE00371ded670cBdD9CAdcb383506C718", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$23, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
+                    React__default.createElement(Button, { as: "a", href: "/swap?inputCurrency=0xE9E73E1aE76D17A16cC53E3e87a9a7dA78834d37&outputCurrency=0xA548a7efE00371ded670cBdD9CAdcb383506C718", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$23, { color: lightColors.backgroundAlt }), variant: "secondaryback" }, buyCakeLabel))))));
 };
 
 var MenuItems = function (_a) {
