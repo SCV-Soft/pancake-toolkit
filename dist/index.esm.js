@@ -156,6 +156,7 @@ var variants$6 = {
     SUBTLE: "subtle",
     SUCCESS: "success",
     LIGHT: "light",
+    TEXTBACK: "textback",
 };
 
 var _a$4, _b$3;
@@ -215,6 +216,10 @@ var styleVariants$2 = (_b$3 = {},
         backgroundColor: "input",
         color: "textSubtle",
         boxShadow: "none",
+    },
+    _b$3[variants$6.TEXTBACK] = {
+        backgroundColor: "text",
+        color: "backgroundAlt",
     },
     _b$3);
 
