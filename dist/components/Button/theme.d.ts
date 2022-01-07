@@ -59,4 +59,8 @@ export declare const styleVariants: {
         backgroundColor: string;
         color: string;
     };
+    secondaryback: {
+        backgroundColor: string;
+        color: string;
+    };
 };
