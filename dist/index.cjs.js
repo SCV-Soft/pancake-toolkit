@@ -1300,7 +1300,7 @@ var Icon$v = function (props) {
 };
 
 var Icon$u = function (_a) {
-    var _b = _a.fillColor, fillColor = _b === void 0 ? "#B8ADD2" : _b, props = __rest(_a, ["fillColor"]);
+    var _b = _a.fillColor, fillColor = _b === void 0 ? "#ffffff" : _b, props = __rest(_a, ["fillColor"]);
     return (React__namespace.createElement(Svg, __assign({ viewBox: "0 0 18 15" }, props),
         React__namespace.createElement("path", { d: "M5.659 15c6.79 0 10.507-5.766 10.507-10.763 0-.16 0-.32-.01-.49A7.578 7.578 0 0018 1.79c-.663.3-1.376.5-2.127.6a3.824 3.824 0 001.63-2.1c-.713.44-1.503.75-2.352.92A3.6 3.6 0 0012.46 0C10.419 0 8.76 1.699 8.76 3.787c0 .3.039.58.098.86-3.064-.15-5.786-1.669-7.61-3.957A3.858 3.858 0 00.75 2.598c0 1.31.654 2.469 1.64 3.148a3.638 3.638 0 01-1.669-.47v.05c0 1.83 1.278 3.368 2.956 3.708-.312.09-.634.13-.976.13-.234 0-.468-.02-.692-.07.468 1.509 1.834 2.598 3.453 2.628a7.284 7.284 0 01-4.585 1.62c-.293 0-.595-.01-.878-.05A10.206 10.206 0 005.659 15z", fill: fillColor })));
 };
@@ -2626,7 +2626,7 @@ var additionalColors = {
     silver: "#B2B2B2",
     bronze: "#E7974D",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#f8fcde", backgroundDisabled: "#e8eae8", backgroundAlt: "#FFFFFF", backgroundAlt2: "rgba(255, 255, 255, 0.7)", cardBorder: "#eae9e3", contrast: "#261813", dropdown: "#e8e7e1", dropdownDeep: "#ededed", invertedContrast: "#FFFFFF", input: "#f4f0eb", inputSecondary: "#e2edcb", tertiary: "#f1f4ef", text: "#5e240d", textDisabled: "#bcc4bd", textSubtle: "#aa6f8d", disabled: "#eaeae8", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#f8fcde", backgroundDisabled: "#e8eae8", backgroundAlt: "#FFFFFF", backgroundAlt2: "rgba(255, 255, 255, 0.7)", cardBorder: "#eae9e3", contrast: "#261813", dropdown: "#e8e7e1", dropdownDeep: "#ededed", invertedContrast: "#FFFFFF", input: "#f4f0eb", inputSecondary: "#e2edcb", tertiary: "#f1f4ef", text: "#1f1f1f", textDisabled: "#bcc4bd", textSubtle: "#818181", disabled: "#eaeae8", gradients: {
         bubblegum: "linear-gradient(139.73deg, #fff7e5 0%, #f0ffef 100%)",
         inverseBubblegum: "linear-gradient(139.73deg, #f0ffef 0%, #fff7e5 100%)",
         cardHeader: "linear-gradient(111.68deg, #eff2ed 0%, #ebe6f4 100%)",
@@ -2635,7 +2635,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         violetAlt: "linear-gradient(180deg, #dacbef 0%, #d19ab9 100%)",
         gold: "linear-gradient(180deg, #ff0000 0%, #fc9032 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#ffd26b", background: "#090a05", backgroundDisabled: "#423d37", backgroundAlt: "#2b2725", backgroundAlt2: "rgba(39, 38, 44, 0.7)", cardBorder: "#343f31", contrast: "#FFFFFF", dropdown: "#1e211e", dropdownDeep: "#16100b", invertedContrast: "#262413", input: "#31472f", inputSecondary: "#213028", primaryDark: "#a03800", tertiary: "#473541", text: "#fcffed", textDisabled: "#6c7060", textSubtle: "#bdd1ab", disabled: "#54634b", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#ff5b51", background: "#090a05", backgroundDisabled: "#423d37", backgroundAlt: "#2b2725", backgroundAlt2: "rgba(39, 38, 44, 0.7)", cardBorder: "#343f31", contrast: "#FFFFFF", dropdown: "#1e211e", dropdownDeep: "#16100b", invertedContrast: "#262413", input: "#31472f", inputSecondary: "#213028", primaryDark: "#a03800", tertiary: "#473541", text: "#fcffed", textDisabled: "#6c7060", textSubtle: "#ffffff", disabled: "#54634b", gradients: {
         bubblegum: "linear-gradient(139.73deg, #305b39 0%, #2a5436 100%)",
         inverseBubblegum: "linear-gradient(139.73deg, #2a5436 0%, #305b39 100%)",
         cardHeader: "linear-gradient(166.77deg, #2a3c54 0%, #30443e 100%)",
