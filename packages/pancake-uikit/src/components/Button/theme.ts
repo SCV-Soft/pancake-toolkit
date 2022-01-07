@@ -58,4 +58,12 @@ export const styleVariants = {
     color: "textSubtle",
     boxShadow: "none",
   },
+  [variants.TEXTBACK]: {
+    backgroundColor: "text",
+    color: "backgroundAlt",
+  },
+  [variants.SECONDARYBACK]: {
+    backgroundColor: "secondary",
+    color: "backgroundAlt",
+  },
 };
