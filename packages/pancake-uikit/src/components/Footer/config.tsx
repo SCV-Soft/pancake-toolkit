@@ -7,7 +7,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.pancakeswap.finance/contact-us",
+        href: "https://docs.campfire.camp/contact-us",
       },
       {
         label: "Blog",
@@ -15,11 +15,11 @@ export const footerLinks: FooterLinkType[] = [
       },
       {
         label: "Community",
-        href: "https://docs.pancakeswap.finance/contact-us/telegram",
+        href: "https://docs.campfire.camp/contact-us/telegram",
       },
       {
         label: "CAKE",
-        href: "https://docs.pancakeswap.finance/tokenomics/cake",
+        href: "https://docs.campfire.camp/tokenomics/cake",
       },
       {
         label: "—",
@@ -36,15 +36,15 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Customer",
-        href: "Support https://docs.pancakeswap.finance/contact-us/customer-support",
+        href: "Support https://docs.campfire.camp/contact-us/customer-support",
       },
       {
         label: "Troubleshooting",
-        href: "https://docs.pancakeswap.finance/help/troubleshooting",
+        href: "https://docs.campfire.camp/help/troubleshooting",
       },
       {
         label: "Guides",
-        href: "https://docs.pancakeswap.finance/get-started",
+        href: "https://docs.campfire.camp/get-started",
       },
     ],
   },
@@ -57,7 +57,7 @@ export const footerLinks: FooterLinkType[] = [
       },
       {
         label: "Documentation",
-        href: "https://docs.pancakeswap.finance",
+        href: "https://docs.campfire.camp",
       },
       {
         label: "Bug Bounty",
@@ -65,11 +65,11 @@ export const footerLinks: FooterLinkType[] = [
       },
       {
         label: "Audits",
-        href: "https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+        href: "https://docs.campfire.camp/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
       },
       {
         label: "Careers",
-        href: "https://docs.pancakeswap.finance/hiring/become-a-chef",
+        href: "https://docs.campfire.camp/hiring/become-a-chef",
       },
     ],
   },
@@ -79,26 +79,22 @@ export const socials = [
   {
     label: "Twitter",
     icon: "Twitter",
-    href: "https://scvsoft.net",
+    href: "https://www.facebook.com/CAMP-GLOBAL-107839080680846",
   },
   {
     label: "Telegram",
     icon: "Telegram",
     items: [
       {
-        label: "English",
-        href: "https://scvsoft.net",
-      },
-      {
         label: "한국어",
-        href: "https://scvsoft.net",
+        href: "https://t.me/CAMPKOR",
       },
     ],
   },
   {
     label: "Github",
     icon: "Github",
-    href: "https://github.com/SCV-Soft",
+    href: "https://github.com/campfire-DeFi",
   },
 ];
 

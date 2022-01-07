@@ -91,7 +91,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="https://https://app.sushi.com/ko/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+              href="/swap?inputCurrency=0xE9E73E1aE76D17A16cC53E3e87a9a7dA78834d37&outputCurrency=0xA548a7efE00371ded670cBdD9CAdcb383506C718"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}

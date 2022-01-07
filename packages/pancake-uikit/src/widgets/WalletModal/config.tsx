@@ -44,7 +44,7 @@ const connectors: Config[] = [
   {
     title: "Binance Chain",
     icon: BinanceChain,
-    connectorId: ConnectorNames.BSC,
+    connectorId: ConnectorNames.ETH,
     priority: 999,
   },
   {

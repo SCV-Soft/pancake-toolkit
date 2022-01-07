@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { PancakeRoundIcon } from "../Svg";
 import Text from "../Text/Text";
 import Skeleton from "../Skeleton/Skeleton";
 import { Colors } from "../../theme";
@@ -26,11 +25,10 @@ const PriceLink = styled.a`
 const CakePrice: React.FC<Props> = ({ cakePriceUsd, color = "textSubtle" }) => {
   return cakePriceUsd ? (
     <PriceLink
-      href="https://app.sushi.com/ko/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+      href="/swap?inputCurrency=0xE9E73E1aE76D17A16cC53E3e87a9a7dA78834d37&outputCurrency=0xA548a7efE00371ded670cBdD9CAdcb383506C718"
       target="_blank"
     >
-      <PancakeRoundIcon width="24px" mr="8px" />
-      <Text color={color} bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
+      <Text color={color} bold>{`$${cakePriceUsd.toFixed(6)}`}</Text>
     </PriceLink>
   ) : (
     <Skeleton width={80} height={24} />
